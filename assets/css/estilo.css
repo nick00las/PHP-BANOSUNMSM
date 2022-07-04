@@ -1,0 +1,222 @@
+/* General */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    text-align: center;
+    background-image: url(../imagenes/fondoUNMSM.png);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+  
+main {
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.contenedor_login{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 100%;
+    max-width: 380px;
+    position: relative;
+    top: 300px;  
+}
+
+.contenedor_login form{
+    width: 100%;
+    padding: 25px 10px;
+    position: absolute;
+    border-radius: 20px;
+    background: rgba(212, 206, 206, 0.862);
+}
+
+.contenedor_login form h1{
+    font-size: 35px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #096f91;
+}
+
+.contenedor_registro{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 100%;
+    max-width: 380px;
+    position: relative;
+    top: 300px;
+}
+ 
+.contenedor_registro form{
+    width: 100%;
+    padding: 30px 10px;
+    position: absolute;
+    border-radius: 20px;
+    background: rgba(212, 206, 206, 0.862);
+}
+
+.contenedor_registro form h1{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #0098cb;
+}
+
+  /* Input Forms*/
+  input[type="text"], input[type="password"]{
+    outline: none;
+    padding: 20px;
+    display: block;
+    width: 300px;
+    border-radius: 3px;
+    border: 1px solid #eee;
+    margin: 20px auto;
+  }
+  
+  input[type="submit"] {
+    padding: 10px;
+    color: #fff;
+    background: red;
+    width: 120px;
+    margin: 20px auto;
+    margin-top: 0;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #da3d3dcb;
+  }
+  
+  /* Header */
+  header {
+    border-bottom: 2px solid #eee;
+    padding: 20px 0;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    background-color:rgb(37, 49, 158);
+  }
+
+  .baño_logo{
+      width: 25px; 
+      filter: invert(100%);
+  } 
+
+  header a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .mensaje{
+    position: absolute;
+    margin: auto;
+    top: 40%;
+    left: 43%;           
+    margin-top: -100px;
+    margin-left: -90px;
+    width: 25vw;
+    border-radius: 20px;
+    background: rgba(212, 206, 206, 0.862);
+    line-height: 35px;
+    padding: 20px;  
+  }
+  
+  .mensaje h2 {
+    font-size: 30px;
+    color: rgb(54, 18, 160);
+    font-family: 'Advent Pro', sans-serif;
+  }
+
+  .error{
+     display: flex;
+    margin: auto;
+    position: absolute;
+    max-width: 380px; 
+    /* 24.55% */
+    top: 145px;
+    left: 37.725%;
+    right: 37.725%;
+  }
+
+   .error p {
+    align-items: center;
+    text-align: center;
+    background: rgb(212, 206, 206);
+    color: rgb(194, 29, 29);
+    padding: 15px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .registrado {
+    display: flex;
+    margin: auto;
+    position: absolute;
+    max-width: 380px; 
+    /* 15.82% */
+    top: 110px;
+    left: 42.09%;
+    right: 42.09%;
+  } 
+
+  .registrado p {
+    align-items: center;
+    text-align: center;
+    background: rgb(212, 206, 206);
+    color: rgb(6, 185, 6);
+    padding: 15px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .foro{
+    width: 250px; 
+    padding: 15px;
+  }
+
+  .registrado2 {
+    display: flex;
+    margin: auto;
+    position: absolute;
+    max-width: 380px; 
+    /* 15.82% */
+    top: 110px;
+    left: 42.09%;
+    right: 42.09%;
+  } 
+
+  .registrado2 p {
+    align-items: center;
+    text-align: center;
+    background: rgb(212, 206, 206);
+    color: rgb(237, 17, 17);
+    padding: 15px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+  }
